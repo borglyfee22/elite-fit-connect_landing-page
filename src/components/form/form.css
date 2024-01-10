@@ -1,0 +1,146 @@
+.elitefit__form {
+    display: flex;
+    flex-direction: row;
+}
+
+.elitefit__form-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.elitefit__form-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: var(--font-subheader);
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+/* .elitefit__form-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+} */
+
+.elitefit__form-content__input {
+    width: 65%;
+    margin: 2rem 0 1rem;
+    display: flexbox;
+    flex-direction: row;
+    align-self: center;
+}
+
+.elitefit__form-content__input-info {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+
+
+.elitefit__form-content__input-info input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+}
+ 
+.elitefit__form-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+} 
+
+@media screen and (max-width: 1050px){
+    .elitefit__form-content {
+        flex-direction: column;
+    }
+
+    .elitefit__form-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .elitefit__form-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .elitefit__form-content__input-info {
+        gap: 3px;
+    }
+
+    .elitefit__form-content__input input {
+        min-height: 40px;
+        font-size: 10px;
+        line-height: 24px;
+        border-radius: 6px;
+    }
+
+    .elitefit__form-content__input button {
+        min-height: 40px;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 6px;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .elitefit__form-content h1 {
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .elitefit__form-content__input-info {
+        gap: 2px;
+    }
+
+    .elitefit__form-content__input input {
+        min-height: 30px;
+        font-size: 7.2px;
+        line-height: 16px;
+        border-radius: 4px;
+    }
+
+    .elitefit__form-content__input button {
+        min-height: 30px;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 4px;
+        margin-top: 4px;
+    }
+}
