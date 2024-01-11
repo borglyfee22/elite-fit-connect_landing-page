@@ -1,6 +1,6 @@
 .elitefit__features {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 
@@ -11,25 +11,28 @@
     align-items: flex-start;
     flex-direction: column;
 
-    margin-right: 5rem;    
+    /* margin-right: 15%;
+    margin-left: 15%;  */  
 }
 
-.elitefit__features-content h1 {
+.elitefit__features-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: var(--font-subheader);
     line-height: 50px;
     letter-spacing: -0.04em;
+    text-align: center;
+    align-self: center;
 }
 
- .elitefit__features-content p {
+/*  .elitefit__features-content p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
     margin-top: 1.5rem; 
-}  
+}   */
 
 .elitefit__features-cards {
     display: flex;
@@ -45,6 +48,9 @@
     justify-content: center;
     margin-bottom: 20px;
     gap: 4rem;
+
+    align-self: center;
+
 }
 
 .card {
@@ -52,8 +58,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
-
+    width: 18rem;
+    height: 20rem;
 
     margin-bottom: 3rem;
 
@@ -64,17 +70,14 @@
     
 } 
 
-.card {
-    width: 18rem;
-    height: 20rem;
-}
+
 
 @media screen and (max-width: 1050px) {
     .elitefit__features {
         flex-direction: column;
     }
 
-    .elitefit__features-headering {
+    .elitefit__features-heading {
         flex-direction: column;
     }
 
@@ -105,8 +108,8 @@
 
 @media screen and (max-width: 490px) {
     .elitefit__features-heading h1 {
-        font-size: 36px;
-        line-height: 48px;
+        font-size: 23px;
+        line-height: 32px;
     }
 
     .elitefit__features-heading p {

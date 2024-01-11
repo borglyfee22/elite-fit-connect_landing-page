@@ -29,7 +29,7 @@ const Features = () => {
     <div className="elitefit_features section__padding" id="features">
       <div className="elitefit__features-heading">
         <h1 className="gradient__text">Features </h1>
-        <p>Key features include...</p>
+        {/* <p>Key features include...</p> */}
       </div>
       <div className="elitefit__features-cards section__padding">
         <div className="elitefit__features-cards_app1">
