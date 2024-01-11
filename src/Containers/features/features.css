@@ -1,19 +1,17 @@
 .elitefit__features {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
-.elitefit__features-content {
+.elitefit__features-heading {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 
-    margin-right: 15%;
-    margin-left: 15%;
-
+    margin-right: 5rem;    
 }
 
 .elitefit__features-content h1 {
@@ -22,7 +20,6 @@
     font-size: var(--font-subheader);
     line-height: 50px;
     letter-spacing: -0.04em;
-    text-align: center;
 }
 
  .elitefit__features-content p {
@@ -31,18 +28,23 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
-     text-align: center;
     margin-top: 1.5rem; 
 }  
 
-.elitefit__features-content-cards1 {
+.elitefit__features-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+}
+
+.elitefit__features-cards_app1 {
+    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
     margin-bottom: 20px;
-    
-    gap: 100px;
+    gap: 4rem;
 }
 
 .card {
@@ -50,17 +52,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18rem;
-    height: 20rem;
+    height: 5rem;
+
+
+    margin-bottom: 3rem;
+
 }
 
 .card_img img {
-    width: 90px;
+    width: 75px;
     
-} 
-
-.elitefit__features-content-cards1_app_img img {
-    width: 90px;
 } 
 
 .card {
@@ -73,35 +74,44 @@
         flex-direction: column;
     }
 
-    .elitefit__features-content {
-        margin: 0 0 3rem;
+    .elitefit__features-headering {
+        flex-direction: column;
+    }
+
+    .elitefit__features-cards {
+        flex-direction: column;
+    }
+
+    .elitefit__features-cards_app1 {
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .elitefit__features-content h1 {
+    .elitefit__features-heading h1 {
         font-size: 30px;
         line-height: 40px;
     }
 
-    .elitefit__features-content p {
+    .elitefit__features-heading p {
         font-size: 16px;
         line-height: 24px;
     }
 
     .card {
-        height: 60%;
+        height: 100%;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .elitefit__features-content h1 {
+    .elitefit__features-heading h1 {
         font-size: 36px;
         line-height: 48px;
     }
 
-    .elitefit__features-content p {
+    .elitefit__features-heading p {
         font-size: 14px;
         line-height: 24px;
     }
+    
 }
