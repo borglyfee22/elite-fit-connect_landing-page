@@ -56,15 +56,40 @@
 .card {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 18rem;
     height: 20rem;
 
     margin-bottom: 3rem;
-
 }
 
+.card__header p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card__text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+    text-align: center;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card_img {
+    margin-top: 10px;
+}
 .card_img img {
     width: 75px;
     

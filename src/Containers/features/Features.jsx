@@ -44,8 +44,9 @@ const Features = () => {
             </div>
             <div className="card__text">
               <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A seamless Fitness App for both you and your clients with a{" "}
+                <strong>unique interface</strong> and ability to access all
+                other features Elite Fit Connect has to offer.
               </p>
             </div>
           </div>
@@ -60,8 +61,8 @@ const Features = () => {
             </div>
             <div className="card__text">
               <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A seamless Fitness App for both you and your clients with a{" "}
+                <strong>unique interface</strong> and abilit
               </p>
             </div>
           </div>
