@@ -1,6 +1,7 @@
 .elitefit__header {
     display: flex;
     flex-direction: row;
+    
 }
 
 .elitefit__header-content {
@@ -11,7 +12,8 @@
     flex-direction: column;
 
     margin-right: 5rem;
-}
+/*     margin-top: 12rem;
+ */}
 
 .elitefit__header-content h1 {
     font-family: var(--font-family);

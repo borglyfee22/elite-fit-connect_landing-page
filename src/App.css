@@ -9,6 +9,25 @@ body {
   background: var(--color-bg)
 }
 
+.gradient__nav
+
+{
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 9% 22%, rgb(255, 255, 255) 0%, rgba(0, 40, 83, 1) 99%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 9% 22%, rgb(255, 255, 255) 0%, rgba(0, 40, 83, 1) 99%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 9% 22%,  rgb(255, 255, 255) 0%, rgba(0, 40, 83, 1) 99%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 9% 22%,  rgb(255, 255, 255) 0%, rgba(0, 40, 83, 1) 99%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 9% 22%,  rgb(255, 255, 255) 0%, rgba(0, 40, 83, 1) 99%);
+}
+
 a {
   color: unset;
   text-decoration: none;

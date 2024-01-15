@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navi.css";
 
-import logo from "../../assets/logo_long.png";
+import logo from "../../assets/png.png";
 
 const Menu = () => (
   <>
@@ -39,13 +39,13 @@ const Navi = () => {
       <div className="elitefit__navi-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#ffff"
+            color="#042c54"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#ffff"
+            color="#042c54"
             size={27}
             onClick={() => setToggleMenu(true)}
           />

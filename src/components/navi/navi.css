@@ -2,8 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffff;
 
-    padding: 2rem 6rem;
+/*     position: fixed;
+ */    top: 0px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.884);
+    padding: 1rem 6rem;
+
+    
 }
 
 .elitefit__navi-links {
@@ -18,7 +25,7 @@
 }
 
 .elitefit__navi-links_logo img {
-    width: 200px;
+    width: 350px;
 }
 
 .elitefit__navi-links_container {
@@ -28,7 +35,7 @@
 
 .elitefit__navi-links_container p,
 .elitefit__navi-menu_container p {
-    color: #fff;
+    color: #042c54;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -41,7 +48,7 @@
 
 
 .elitefit__navi-menu {
-    margin-left: 1rm;
+    margin-left: 1rem;
 
     display: none;
     position: relative;
@@ -95,6 +102,9 @@
     .elitefit__navi {
         padding: 2rem 4rem;
     }
+    .elitefit__navi-links_logo img {
+        width: 225px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -104,6 +114,10 @@
 
     .elitefit__navi-menu_container {
         top: 20px;
+    }
+
+    .elitefit__navi-links_logo img {
+        width: 225px;
     }
 }
 

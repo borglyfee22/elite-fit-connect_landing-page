@@ -6,6 +6,8 @@ import "./features.css";
 import app from "../../assets/app.png";
 import calendar from "../../assets/calendar.png";
 import dashboard from "../../assets/dashboard.png";
+import messaging from "../../assets/messaging.png";
+import billing from "../../assets/billing.png";
 
 const Links = () => (
   <>
@@ -28,7 +30,10 @@ const Features = () => {
   return (
     <div className="elitefit_features section__padding" id="features">
       <div className="elitefit__features-heading">
-        <h1 className="gradient__text">Features </h1>
+        <h1 className="gradient__text">
+          Elite Fit Connect offers a suite of features in a single plafform
+          meant to maximize performize and minimize effort.
+        </h1>
         {/* <p>Key features include...</p> */}
       </div>
       <div className="elitefit__features-cards section__padding">
@@ -56,13 +61,14 @@ const Features = () => {
             </div>
             <div className="card__header">
               <p>
-                <a href="#app">Client/Coach App</a>
+                <a href="#app">Automated Calendars</a>
               </p>
             </div>
             <div className="card__text">
               <p>
-                A seamless Fitness App for both you and your clients with a{" "}
-                <strong>unique interface</strong> and abilit
+                Organizing client workouts becomes easy with just a few clicks.
+                You and your clients will both have access to calendars with{" "}
+                <strong>automated reminders</strong>
               </p>
             </div>
           </div>
@@ -79,6 +85,42 @@ const Features = () => {
               <p>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="elitefit__features-cards_app1">
+          <div className="card">
+            <div className="card_img">
+              <img src={messaging} alt="messaging"></img>
+            </div>
+            <div className="card__header">
+              <p>
+                <a href="#app">Client Messaging</a>
+              </p>
+            </div>
+            <div className="card__text">
+              <p>
+                Centralize communication with clients with Elite Fit Connect's
+                messaging capability on both the{" "}
+                <strong>website interface & mobile app</strong>.
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card_img">
+              <img src={billing} alt="billing"></img>
+            </div>
+            <div className="card__header">
+              <p>
+                <a href="#app">Seamless Billing</a>
+              </p>
+            </div>
+            <div className="card__text">
+              <p>
+                <strong>Elite Fit Connect + Stripe</strong> makes handling{" "}
+                <strong>payments and invoicing</strong> for your personal
+                training business much easier!
               </p>
             </div>
           </div>
