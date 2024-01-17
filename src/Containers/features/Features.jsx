@@ -31,8 +31,8 @@ const Features = () => {
     <div className="elitefit_features section__padding" id="features">
       <div className="elitefit__features-heading">
         <h1 className="gradient__text">
-          Elite Fit Connect offers a suite of features in a single plafform
-          meant to maximize performize and minimize effort.
+          Elite Fit Connect offers a suite of features in a single platform
+          meant to maximize performance and minimize effort.
         </h1>
         {/* <p>Key features include...</p> */}
       </div>
